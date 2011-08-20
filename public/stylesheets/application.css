@@ -1,0 +1,115 @@
+/*changes the font, background of the body tag */
+html, body {
+  font-family: Arial;
+  font-size: 16pt;
+	background: #D1DEFF;
+}
+/*changes the design font,width, height, padding of the textarea tag */
+textarea {
+  font-family: Arial;
+  font-size: 16pt;
+  width: 500px;
+  height: 100px;
+  padding: 8px;
+}
+/* thay doi mau sac cua cac a tag khi di chuot vao */
+
+a {
+  color: #09c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #060;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #060;
+}
+/*
+#comment-notice {
+
+}
+*/
+.flash-notice{
+	color: black;
+	background-color: #CFC;
+  border: solid 1px #6C6;
+	width: 500px;
+	height: 30px;
+
+}
+.post{
+  display: block;
+  background: #E5EEED;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  /*margin: 10px;*/
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/*posts se tac dung len cac the ul co id="posts" */
+#posts ul {
+  margin: 0;
+  padding: 0;
+}
+/*cho cac the li ben trong the co id="posts" */
+#posts li {
+  margin-left: -30pt;
+  margin-bottom: 16px;
+  padding: 8px;
+  list-style: none;
+  border: 1px solid #ccc;
+  width: 600px;
+  height: 100px;
+  background: #E5EEED;
+}
+/*cho cac the co class = "post" */
+.post{
+  text-align: center;
+  color: blue;
+  font-size: 12pt;
+}
+/*cho cac the p nam ben trong the co id = "posts" */
+#posts p {
+  margin: 0;
+  font-size: 15pt;
+}
+/*cho cac the co class = "age" */
+.age {
+  font-size: 10pt;
+  text-decoration: italic;
+  margin-bottom: 8px;
+  text-align: left;
+
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/*the h2 ben trong cac the co id = "error_explanation"*/
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 10px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/*the ul, li  ben trong cac the co id = "error_explanation"*/
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
