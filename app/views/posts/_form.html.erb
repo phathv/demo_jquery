@@ -1,5 +1,6 @@
-<%= form_for new_article_post_path(params[:article], @post), :remote => true do |f| %>
+<%= form_for(params[:article_id], @post, :remote => true) do |f| %>
   <%#= form_authenticity_token %>
+ 
   <div class="field">
     <%#= f.label :name %>
     <%= f.text_field :name %>
