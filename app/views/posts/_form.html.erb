@@ -1,13 +1,18 @@
-<%= form_for(params[:article_id], @post, :remote => true) do |f| %>
+<%#= form_for(params[:article_id], @post, :remote => true) do |f| %>
+<%#= form_for [@article, Post.new], :remote => true) do |f| %>
+ <%#= @article.inspect %>
+<%#= @post.inspect %>
+
+<%= form_for([@article, Post.new], :remote => true) do |f| %>  
   <%#= form_authenticity_token %>
  
   <div class="field">
-    <%#= f.label :name %>
+    <%= f.label :name %>
     <%= f.text_field :name %>
     <%#= f.input :content %>
   </div>
   <div class="field">
-    <%#= f.label :content %>
+    <%= f.label :content %>
     <%= f.text_area :content, :rows => 10  %>
     <%#= f.input :content %>
   </div>
