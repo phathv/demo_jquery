@@ -1,2 +1,6 @@
-routing sub-resource and using jquery to create/delete posts then get problem of create posts (all fields are passed null value)
-can any one help me?
+routing sub-resource and using jquery to create/delete posts
+sh:
+
+bundle install
+rake db:migrate
+
