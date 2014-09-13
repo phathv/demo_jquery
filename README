@@ -5,8 +5,8 @@ rails g jquery:install
 rake db:migrate
 
 
-By Kevin
+By Phat H.
 Licensed under the MIT license.
-Contact to kevin@vinova.sg
+Contact to phathv81@gmail.com
 
 
